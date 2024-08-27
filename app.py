@@ -5,7 +5,7 @@ from db import items,stores
 app = Flask(__name__)
 app.debug = True
 
-
+# New feature to be added
 
 @app.get("/store")
 def get_stores():
